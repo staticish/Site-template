@@ -4,13 +4,13 @@ export default function Contact(props) {
   return (
     <div>
       <section>
-        <img src={require("../../public/images/round-chair.jpg")} alt="chair" />
+        <img src={require("../images/round-chair.jpg")} alt="chair" />
         <nav className="menu">
           <div id="menuBar" className="menuBar">
             <button>
               <img
                 className="menuIcon"
-                src={require("../../public/images/menuIcon.png")}
+                src={require("../images/menuIcon.png")}
                 alt="menuIcon"
                 height="20px"
               />
@@ -56,7 +56,7 @@ export default function Contact(props) {
         </div>
         <div className="bottomHalf">
           <img
-            src={require("../../public/images/image-about-dark.jpg")}
+            src={require("../images/image-about-dark.jpg")}
             alt="darkimage"
           />
           <div>
@@ -71,7 +71,7 @@ export default function Contact(props) {
             </p>
           </div>
           <img
-            src={require("../../public/images/image-about-light.jpg")}
+            src={require("../images/image-about-light.jpg")}
             alt="darkimage"
           />
         </div>

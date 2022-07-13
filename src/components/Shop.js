@@ -58,14 +58,14 @@ export default function Shop(props) {
   return (
     <div>
       <section>
-        <img src={require("../../public/images/buying-furn.jpg")} alt="chair" />
+        <img src={require("../images/buying-furn.jpg")} alt="chair" />
 
         <nav className="menu">
           <div id="menuBar" className="menuBar">
             <button>
               <img
                 className="menuIcon"
-                src={require("../../public/images/menuIcon.png")}
+                src={require("../images/menuIcon.png")}
                 alt="menuIcon"
                 height="20px"
               />

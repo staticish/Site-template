@@ -4,16 +4,13 @@ export default function ThirdPage(props) {
   return (
     <div>
       <section>
-        <img
-          src={require("../../public/images/desktop-image-hero-3.jpg")}
-          alt="chair"
-        />
+        <img src={require("../images/desktop-image-hero-3.jpg")} alt="chair" />
         <nav className="menu">
           <div id="menuBar" className="menuBar">
             <button>
               <img
                 className="menuIcon"
-                src={require("../../public/images/menuIcon.png")}
+                src={require("../images/menuIcon.png")}
                 alt="menuIcon"
                 height="20px"
               />
@@ -94,7 +91,7 @@ export default function ThirdPage(props) {
         </div>
         <div className="bottomHalf">
           <img
-            src={require("../../public/images/image-about-dark.jpg")}
+            src={require("../images/image-about-dark.jpg")}
             alt="darkimage"
           />
           <div>
@@ -109,7 +106,7 @@ export default function ThirdPage(props) {
             </p>
           </div>
           <img
-            src={require("../../public/images/image-about-light.jpg")}
+            src={require("../images/image-about-light.jpg")}
             alt="darkimage"
           />
         </div>

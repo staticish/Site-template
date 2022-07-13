@@ -5,7 +5,7 @@ export default function About(props) {
     <div>
       <section>
         <img
-          src={require("../../public/images/black-furniture-bedroom.jpg")}
+          src={require("../images/black-furniture-bedroom.jpg")}
           alt="chair"
         />
         <nav className="menu">
@@ -13,7 +13,7 @@ export default function About(props) {
             <button>
               <img
                 className="menuIcon"
-                src={require("../../public/images/menuIcon.png")}
+                src={require("../images/menuIcon.png")}
                 alt="menuIcon"
                 height="20px"
               />
@@ -59,10 +59,7 @@ export default function About(props) {
           </p>
         </div>
         <div className="bottomHalf">
-          <img
-            src={require("../../public/images/buying-bed.jpg")}
-            alt="darkimage"
-          />
+          <img src={require("../images/buying-bed.jpg")} alt="darkimage" />
           <div>
             <h1>ABOUT OUR FURNITURE</h1>{" "}
             <p>
@@ -75,7 +72,7 @@ export default function About(props) {
             </p>
           </div>
           <img
-            src={require("../../public/images/image-about-light.jpg")}
+            src={require("../images/image-about-light.jpg")}
             alt="darkimage"
           />
         </div>
